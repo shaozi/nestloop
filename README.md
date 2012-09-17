@@ -18,10 +18,12 @@ level ends. The shorter loop will continue from beginning.
 Example
 -------
 `parse_nest_loop "1<0-5>.<<1-5>>" ` returns:
-     10.1, 10.2, ..., 10.5,
-     11.1, 11.2, ..., 11.5,
-     ...
-     15.1, 15.2, ..., 15.5
+
+	10.1, 10.2, ..., 10.5,
+	11.1, 11.2, ..., 11.5,
+	...
+	15.1, 15.2, ..., 15.5
 
 `parse_nest_loop "<0-5><0-3>" ` returns:
-      00 11 22 33 40 51
+
+	00 11 22 33 40 51
